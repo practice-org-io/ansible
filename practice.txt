@@ -34,3 +34,16 @@ ansible-playbook -i inventory.ini
 
 ansible-playbook -i inventory.ini -e ansible_user=ec2-user
 -e ansible_password=devops321 01-playbook.yaml
+
+#localhost
+name:
+hosts: local
+connection: local
+vars: 
+    course:
+
+name:
+hosts: local
+connection: local
+vars: 
+    course:
