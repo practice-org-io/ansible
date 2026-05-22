@@ -1,0 +1,23 @@
+#ansible playbook
+name 
+hosts 
+tasks : 
+    name
+    ansible.builtin.ping
+
+
+-    name: 
+    hosts:
+    tasks:
+        name: 
+        ansible.builtin.ping
+
+#cmd to list ip addresses in terminal 
+ansible-inventory -i inventory.ini --graph
+
+#cmd to run playbook 
+ansible-playbook -i inventory.ini 
+-e ansible_user=ec2-user ansible_password=DevOps321 01-playbook.yaml
+
+ansible-playbook -i inventory.ini -e ansible_user=ec2-user
+ansible_password=devops321 01-playbook.yaml
