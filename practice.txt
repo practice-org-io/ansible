@@ -18,6 +18,12 @@ tasks :
     -   name:
     -   some tasks
 
+-   name: 
+    hosts:
+    tasks:
+        - name
+        tasks
+
 
 #cmd to list ip addresses in terminal 
 ansible-inventory -i inventory.ini --graph
