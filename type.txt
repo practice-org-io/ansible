@@ -1,0 +1,13 @@
+name 
+hosts 
+tasks : 
+    name
+    ansible.builtin.ping
+
+
+-    name: 
+    hosts:
+    tasks:
+        name: 
+        ansible.builtin.ping
+        
