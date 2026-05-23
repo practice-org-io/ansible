@@ -8,7 +8,7 @@
     DETAILS: # map/dictionary
       MONTHS: 4
       TRAINER: "Shiva"
-    Topics: # list , starts with - (or) []
+    TOPICS: # list , starts with - (or) []
     - Linux
     - Shell
     - Ansible
