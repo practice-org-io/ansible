@@ -47,3 +47,24 @@ hosts: local
 connection: local
 vars: 
     course:
+
+name:
+hosts:
+connection
+vars_prompt
+name
+vars_prompt
+private
+name 
+prompt 
+
+name
+hosts
+connection
+vars_prompt
+name
+prompt
+private
+name
+prompt
+private
