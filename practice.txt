@@ -68,3 +68,7 @@ private
 name
 prompt
 private
+ansible-playbook -e component=cart roboshop.yaml
+ansible-playbook -e component=cart roboshop.yaml
+
+ansible-vault create decrypt edit view 
