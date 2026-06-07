@@ -73,3 +73,6 @@ ansible-playbook -e component=cart roboshop.yaml
 
 ansible-vault create decrypt edit view 
 
+ansible    --> docker
+terraform  --> kubernetes
+
