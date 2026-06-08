@@ -5,19 +5,6 @@ tasks :
     name
     ansible.builtin.ping
 
-
--    name: 
-    hosts:
-    tasks:
-        name: 
-        ansible.builtin.ping
-
--   name:
-    hosts:
-    tasks:
-    -   name:
-    -   some tasks
-
 -   name: 
     hosts:
     tasks:
