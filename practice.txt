@@ -64,3 +64,20 @@ ansible    --> docker
 terraform  --> kubernetes
 
 tf vars? when we have variable.tf ?
+
+Plan: 31 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + database_subnet_ids = [
+      + (known after apply),
+      + (known after apply),
+    ]
+  + private_subnet_ids  = [
+      + (known after apply),
+      + (known after apply),
+    ]
+  + public_subnet_ids   = [
+      + (known after apply),
+      + (known after apply),
+    ]
+  + vpc_id              = (known after apply)
