@@ -87,3 +87,6 @@ resource "aws_iam_instance_profile" "bastion" {
   name = "${var.project}-${var.environment}-bastion"
   role = aws_iam_role.bastion.name
 }
+
+for i in 30-bastion 20-sg-rules 10-sg 00-vpc; 
+do cd $i; terraform destroy -auto-approve; cd ..; don
