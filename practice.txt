@@ -93,7 +93,4 @@ do cd $i; terraform destroy -auto-approve; cd ..; don
 
 
   # aws_security_group.allow_tls will be destroyed
-  - resource "aws_security_group" "allow_tls" {
-      - arn                    = "arn:aws:ec2:us-east-1:470562162000:security-group/sg-09edda423e38469fb" -> null
-      - description            = "Allow TLS inbound traffic and all outbound traffic" -> null
-      - egress 
+  - resource "aws_security_group" "allow_tls" 
