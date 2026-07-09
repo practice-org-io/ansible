@@ -93,4 +93,4 @@ do cd $i; terraform destroy -auto-approve; cd ..; don
 
 
   # aws_security_group.allow_tls will be destroyed
-  - resource "aws_security_group" "allow_tls" 
+  - resource "aws_security_group" "allow_tls" kals;jdfkljh
