@@ -110,3 +110,9 @@ kind:
 metadata:
  name:
 spec:
+
+apiVersion:
+kind:
+metadata:
+  name:
+spec:
